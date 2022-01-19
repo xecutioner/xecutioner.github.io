@@ -10,13 +10,13 @@ Here is a shortcut to quickly reduce the size,
 ## Installing the ghostscript. 
 
   Ghostscript is ready available as a [brew package](https://formulae.brew.sh/formula/ghostscript)
-you can easily install it by doing . 
-```
+  you can easily install it by doing . 
+```shell
 brew install ghostscript
 ```
 If you have a big pdf file called input.pdf then do the foo as follows.
  
-```
+```shell
 gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf input.pdf
 ```
