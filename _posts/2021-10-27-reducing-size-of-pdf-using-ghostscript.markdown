@@ -9,7 +9,7 @@ Here is a shortcut to quickly reduce the size,
 
 ## Installing the ghostscript. 
 
-  Ghostscript is ready available as a [brew package]9https://formulae.brew.sh/formula/ghostscript)
+  Ghostscript is ready available as a [brew package](https://formulae.brew.sh/formula/ghostscript)
 you can easily install it by doing . 
 ```
 brew install ghostscript
